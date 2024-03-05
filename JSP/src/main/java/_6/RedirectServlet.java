@@ -19,7 +19,7 @@ public class RedirectServlet extends HttpServlet{
 	
 	/* 페이지 이동 방법
 	  Redirect 방식
-	  - 이동될 떄 브라우저의 주소 표시줄의 URL이 변경되므로 요청이 바뀌게 됩니다.
+	  - 이동될 때 브라우저의 주소 표시줄의 URL이 변경되므로 요청이 바뀌게 됩니다.
 	  - 이동한 jsp 페이지에서는 서블릿에서 request영역의 속성 값에 접근할 수 없습니다.
 	*/
 	
